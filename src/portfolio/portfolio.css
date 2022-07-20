@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@300;400;500;600&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.app{
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+/* ::-webkit-scrollbar {
+    display:none;
+} */
+
+.sections{
+    width: 100%;
+    /* height:calc(100vh - 70px); */
+    /* background-color: red; */
+    /* background-color: lightsalmon; */
+    position: relative;
+    top: 70px;
+    /* z-index: -2; */
+    
+    /* scrollbar-width: none; */
+}
+

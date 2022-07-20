@@ -1,0 +1,33 @@
+.intro{
+    /* background-color: aqua; */
+    /* background-color: aqua; */
+    display: flex;
+    /* height:calc(100vh-70px); */
+    justify-content: space-between;
+}
+.image-container{
+width:45%;
+height: calc(100vh - 70px);
+background-color: crimson;
+border-radius: 50%;
+}
+.text-container{
+    /* background-color: aqua; */
+    margin-top: -30px;
+    height: calc(100vh - 70px);
+    flex: 1;
+    padding-left: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.text-container h1{
+    font-size: 50px;
+    margin: 10px 0; 
+}
+.text-container h2, h3{
+font-size: 30px;
+}
+span{
+    color: crimson;
+}
